@@ -1,0 +1,36 @@
+#about{
+
+    display: grid;
+    min-height: 120vh;
+    grid-template-columns: 10% repeat(auto-fit, min-max(250px), 1fr) 10%;
+    grid-template-rows: 1fr .5fr;
+    align-items: center;
+    margin: 20px 0 10px 30px;
+
+    h3{
+        grid-column:2/3;
+        grid-row: 1/2;
+        align-self: flex-start;
+        display: grid;
+        justify-items: center;
+        font-size: 5rem;
+        text-transform: uppercase;
+        color:#3731C1; 
+    }
+
+    img{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        width: 450px;
+        height: 500px;
+        margin: 0 auto;
+    }
+
+    p.about-me{
+        grid-column: 2/3;
+        grid-row:1/2;
+        color:#FF63F5;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+}

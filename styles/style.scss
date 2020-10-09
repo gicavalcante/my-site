@@ -1,0 +1,74 @@
+html{
+    font-size: 62.5%; // 1rem === 10px;
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    color:  black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    font-size: 7rem;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color:#3731C1; 
+    
+   
+}
+
+h3{
+    font-size: 3rem;
+    display: inline-block;
+    clear:both;
+    overflow: hidden;
+    white-space: nowrap;
+}
+p{
+    font-size: 2.5rem;
+}
+
+li{
+    font-size: 2rem;
+   
+
+    
+}
+
+a{
+    color: #FF63F5;
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+   
+}
+
+.decoration{
+    text-decoration: line-through;
+}
+
+
+img {
+    width: 600px;
+    height: 500px;
+    object-fit: fill;
+  }
+
+
+
+
+@import "home";
+@import "about";
+@import "inspiration";
+@import "contact";

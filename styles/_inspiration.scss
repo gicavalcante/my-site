@@ -1,0 +1,40 @@
+#inspiration {
+
+    display: grid;
+    min-height: 120vh;
+    grid-template-columns: 10% repeat(auto-fit, min-max(250px), 1fr) 10%;
+    grid-template-rows: 1fr .5fr;
+    align-items: center;
+    margin: 20px 0 10px 30px;
+
+
+    img{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        width: 600px;
+        height: 400px;
+        margin-left: 10%;
+        
+    }
+
+    p.inspiration-quote{
+        grid-column: 1/2;
+        grid-row:1/2;
+        columns: #000000;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    a.audrey{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        align-self: flex-end;
+        justify-content: center;
+        text-decoration: none;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2em;
+        color: #3731C1;
+    }
+
+}
